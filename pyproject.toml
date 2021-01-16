@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coder"
+version = "0.1.0"
+description = "Code completion with GPT-2"
+authors = ["Raphael Tang <raphpb1912@gmail.com>"]
+license = "GNU GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.2.1"
+torch = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
